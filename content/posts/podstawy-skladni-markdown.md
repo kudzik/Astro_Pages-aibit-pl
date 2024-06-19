@@ -1,7 +1,7 @@
 +++
 title = 'Podstawy Skladni Markdown'
 date = 2024-06-19T12:58:55+02:00
-draft = true
+draft = false
 +++
 
 ## Podstawy składni Markdown

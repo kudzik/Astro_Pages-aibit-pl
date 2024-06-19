@@ -1,7 +1,7 @@
 +++
 title = 'Zarzadzanie Zawartoscia'
 date = 2024-06-19T13:38:45+02:00
-draft = true
+draft = false
 +++
 
 ## Front matter
