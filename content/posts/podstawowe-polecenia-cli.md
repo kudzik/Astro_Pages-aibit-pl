@@ -14,6 +14,7 @@ Jeśli potrzebujesz więcej informacji na temat dostępnych poleceń, użyj:
 
 ```sh
 hugo help
+hugo server --help
 ```
 
 To polecenie wyświetli listę wszystkich dostępnych poleceń oraz krótki opis każdego z nich.
@@ -47,6 +48,14 @@ hugo server -D
 Opcja `-D` (lub `--buildDrafts`) sprawia, że Hugo generuje stronę wraz ze wszystkimi szkicami, które normalnie nie byłyby widoczne na stronie produkcyjnej. Serwer będzie dostępny pod adresem `http://localhost:1313/`. Strona automatycznie odświeży się po wprowadzeniu zmian w plikach.
 
 Użycie tego polecenia jest szczególnie przydatne podczas pisania nowych postów, które oznaczone są jako szkice i nie są jeszcze gotowe do publikacji.
+
+### Uruchamianie serwera deweloperskiego z automatycznym przenoszeniem na edytowaną stronę
+
+Flagę `--navigateToChanged` używa się podczas uruchamiania serwera deweloperskiego Hugo w celu automatycznego przenoszenia przeglądarki do zmienionych stron lub plików podczas ich edycji. Zmienia to domyślne zachowanie, które polega na ręcznym odświeżaniu strony lub przewijaniu do zmienionych plików w przeglądarce.
+
+```sh
+     hugo server --navigateToChanged
+```
 
 ### Tworzenie nowego wpisu
 

@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site!!! LOL</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site!!! LOL</description>
+    <title>AI Bit</title>
+    <link>https://aibit.pl/</link>
+    <description>Recent content on AI Bit</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>pl-pl</language>
     <lastBuildDate>Wed, 19 Jun 2024 13:38:45 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://aibit.pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Zarzadzanie Zawartoscia</title>
-      <link>http://localhost:1313/posts/zarzadzanie-zawartoscia/</link>
+      <title>Front Matter</title>
+      <link>https://aibit.pl/posts/front-matter/</link>
       <pubDate>Wed, 19 Jun 2024 13:38:45 +0200</pubDate>
-      <guid>http://localhost:1313/posts/zarzadzanie-zawartoscia/</guid>
-      <description>Front matter Użyj front matter, aby dodać metadane do swojej treści.&#xA;Przegląd Front matter znajdujący się na początku każdego pliku z treścią to metadane, które:&#xA;Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, autor itp. Uzupełniają zawartość: Mogą zawierać dodatkowe informacje, takie jak kategorie, tagi, streszczenia. Ustalają relacje z innymi treściami: Pozwalają na powiązanie z innymi wpisami, tworzenie hierarchii stron itp. Kontrolują strukturę publikacji twojej strony: Mogą wpływać na to, czy treść jest szkicem, kiedy ma zostać opublikowana, czy jest ukryta.</description>
+      <guid>https://aibit.pl/posts/front-matter/</guid>
+      <description>Ukryta Moc Metadanych Czy zastanawiałeś się kiedyś, jak twórcy stron internetowych i blogów organizują swoje treści, kontrolują ich wygląd i ułatwiają nawigację? Odpowiedzią jest Front Matter niepozorny, ale potężny element, który kryje się na początku każdego pliku.</description>
     </item>
     <item>
       <title>Podstawy Składni Markdown</title>
-      <link>http://localhost:1313/posts/podstawy-skladni-markdown/</link>
+      <link>https://aibit.pl/posts/podstawy-skladni-markdown/</link>
       <pubDate>Wed, 19 Jun 2024 12:58:55 +0200</pubDate>
-      <guid>http://localhost:1313/posts/podstawy-skladni-markdown/</guid>
+      <guid>https://aibit.pl/posts/podstawy-skladni-markdown/</guid>
       <description>Podstawy składni Markdown This is **bold** text, and this is *emphasized* text. This is bold text, and this is emphasized text.&#xA;Visit the [Hugo](https://gohugo.io) website! Visit the Hugo website!</description>
     </item>
     <item>
       <title>Podstawowe polecenia CLI</title>
-      <link>http://localhost:1313/posts/podstawowe-polecenia-cli/</link>
+      <link>https://aibit.pl/posts/podstawowe-polecenia-cli/</link>
       <pubDate>Wed, 19 Jun 2024 12:54:25 +0200</pubDate>
-      <guid>http://localhost:1313/posts/podstawowe-polecenia-cli/</guid>
-      <description>Linia poleceń W tej części omówimy najczęściej używane polecenia w Hugo. Są one kluczowe do efektywnej pracy z tym frameworkiem.&#xA;Sprawdzenie pomocy i dostępnych poleceń Jeśli potrzebujesz więcej informacji na temat dostępnych poleceń, użyj:&#xA;hugo help To polecenie wyświetli listę wszystkich dostępnych poleceń oraz krótki opis każdego z nich.&#xA;Tworzenie nowego projektu hugo new site nazwa-projektu To polecenie stworzy nowy katalog z podstawową strukturą plików Hugo.&#xA;Uruchamianie serwera deweloperskiego Podczas tworzenia treści możesz chcieć na bieżąco podglądać, jak wygląda twoja strona.</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Wed, 19 Jun 2024 12:17:47 +0200</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description></description>
+      <guid>https://aibit.pl/posts/podstawowe-polecenia-cli/</guid>
+      <description>Linia poleceń W tej części omówimy najczęściej używane polecenia w Hugo. Są one kluczowe do efektywnej pracy z tym frameworkiem.&#xA;Sprawdzenie pomocy i dostępnych poleceń Jeśli potrzebujesz więcej informacji na temat dostępnych poleceń, użyj:&#xA;hugo help hugo server --help To polecenie wyświetli listę wszystkich dostępnych poleceń oraz krótki opis każdego z nich.&#xA;Tworzenie nowego projektu hugo new site nazwa-projektu To polecenie stworzy nowy katalog z podstawową strukturą plików Hugo.&#xA;Uruchamianie serwera deweloperskiego Podczas tworzenia treści możesz chcieć na bieżąco podglądać, jak wygląda twoja strona.</description>
     </item>
   </channel>
 </rss>

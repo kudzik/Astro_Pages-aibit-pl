@@ -1,12 +1,13 @@
 +++
-title = 'Zarzadzanie Zawartoscia'
+title = 'Front Matter'
 date = 2024-06-19T13:38:45+02:00
 draft = false
+summary = "Ukryta Moc Metadanych Czy zastanawiałeś się kiedyś, jak twórcy stron internetowych i blogów organizują swoje treści, kontrolują ich wygląd i ułatwiają nawigację? Odpowiedzią jest Front Matter niepozorny, ale potężny element, który kryje się na początku każdego pliku."
 +++
 
 ## Front matter
 
-Użyj front matter, aby dodać metadane do swojej treści.
+To sekcja w plikach źródłowych używanych w różnych systemach zarządzania treścią (CMS) i generatorach statycznych stron internetowych, takich jak Hugo. Jest to część pliku umieszczona na początku, zazwyczaj pomiędzy specjalnymi delimiterami (np. ---), która zawiera metadane związane z daną stroną lub wpisem.
 
 ### Przegląd
 
