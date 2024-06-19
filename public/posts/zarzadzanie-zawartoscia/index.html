@@ -54,7 +54,7 @@ Przegląd Front matter znajdujący się na początku każdego pliku z treścią 
 Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, autor itp. Uzupełniają zawartość: Mogą zawierać dodatkowe informacje, takie jak kategorie, tagi, streszczenia. Ustalają relacje z innymi treściami: Pozwalają na powiązanie z innymi wpisami, tworzenie hierarchii stron itp. Kontrolują strukturę publikacji twojej strony: Mogą wpływać na to, czy treść jest szkicem, kiedy ma zostać opublikowana, czy jest ukryta.">
   <meta itemprop="datePublished" content="2024-06-19T13:38:45+02:00">
   <meta itemprop="dateModified" content="2024-06-19T13:38:45+02:00">
-  <meta itemprop="wordCount" content="2345">
+  <meta itemprop="wordCount" content="4982">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Zarzadzanie Zawartoscia">
   <meta name="twitter:description" content="Front matter Użyj front matter, aby dodać metadane do swojej treści.
@@ -205,7 +205,6 @@ Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, a
 <p>Pole <code>aliases</code> jest przykładem funkcji Hugo, która wspiera zarządzanie stroną i jej dostępnością pod różnymi adresami URL, zapewniając jednocześnie elastyczność w zarządzaniu adresacją strony internetowej.</p>
 <h3 id="pole-build">Pole <code>build</code></h3>
 <p>Pole <code>build</code> w front matter jest mapą opcji budowania, które dostosowują sposób w jaki Hugo renderuje i przetwarza zawartość strony.</p>
-<h4 id="szczegóły-1">Szczegóły</h4>
 <ul>
 <li>
 <p><strong>Definicja</strong>: <code>build</code> to mapa, która zawiera opcje związane z procesem budowania strony. Jest to użyteczne do konfigurowania specyficznych parametrów renderowania i generowania zawartości strony w Hugo.</p>
@@ -229,7 +228,6 @@ Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, a
 <p>Pole <code>build</code> w front matter Hugo daje użytkownikowi kontrolę nad procesem generowania i przetwarzania zawartości strony, co jest kluczowe dla optymalizacji i dostosowywania działania strony internetowej do specyficznych potrzeb projektowych.</p>
 <h3 id="pole-cascade">Pole <code>cascade</code></h3>
 <p>Pole <code>cascade</code> to mapa kluczy, których wartości są przekazywane do potomków strony, chyba że są nadpisane przez wartości w tym samym kluczu w bieżącej stronie lub bliższym przodku w hierarchii.</p>
-<h4 id="szczegóły-2">Szczegóły</h4>
 <ul>
 <li>
 <p><strong>Definicja</strong>: <code>cascade</code> umożliwia dziedziczenie wartości zdefiniowanych kluczy front matter przez potomne strony. Jest to przydatne do ustawiania globalnych parametrów lub wartości dla grupy stron lub sekcji, które mają wspólne cechy.</p>
@@ -252,7 +250,6 @@ Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, a
 </ul>
 <h3 id="pole-date">Pole <code>date</code></h3>
 <p>Pole <code>date</code> jest używane do określenia daty związanej ze stroną, zazwyczaj jest to data utworzenia. Formatowanie daty może różnić się w zależności od używanego formatu serializacji, takiego jak JSON, TOML lub YAML.</p>
-<h4 id="szczegóły-3">Szczegóły</h4>
 <ul>
 <li>
 <p><strong>Definicja</strong>: <code>date</code> reprezentuje datę związana ze stroną lub wpisem, która często odpowiada dacie jej utworzenia lub publikacji. W Hugo daty mogą być używane do sortowania, wyświetlania lub filtrowania zawartości.</p>
@@ -275,7 +272,6 @@ Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, a
 </ul>
 <h3 id="pole-description">Pole <code>description</code></h3>
 <p>Pole <code>description</code> jest używane do określenia opisu strony, który jest zazwyczaj renderowany w elemencie meta w sekcji <code>&lt;head&gt;</code> opublikowanego pliku HTML.</p>
-<h4 id="szczegóły-4">Szczegóły</h4>
 <ul>
 <li>
 <p><strong>Definicja</strong>: <code>description</code> to tekstowy opis strony, który ma za zadanie krótko i zwięźle przedstawić jej zawartość lub cel. Jest to różne od podsumowania strony (<code>summary</code>), ponieważ <code>description</code> jest przeznaczony głównie do renderowania w meta tagach na stronie internetowej.</p>
@@ -298,7 +294,6 @@ Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, a
 </ul>
 <h3 id="pole-draft">Pole <code>draft</code></h3>
 <p>Pole <code>draft</code> w front matter jest używane do określenia, czy strona ma być uznana za wersję roboczą, która nie zostanie wyrenderowana, chyba że flaga <code>--buildDrafts</code> zostanie przekazana do polecenia <code>hugo</code>.</p>
-<h4 id="szczegóły-5">Szczegóły</h4>
 <ul>
 <li>
 <p><strong>Definicja</strong>: <code>draft</code> jest typem boolean, który służy do oznaczania strony jako wersji roboczej lub niegotowej do publikacji. Gdy <code>draft</code> jest ustawione na <code>true</code>, strona nie jest uwzględniana w standardowym procesie renderowania strony przez Hugo.</p>
@@ -321,7 +316,6 @@ Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, a
 </ul>
 <h3 id="pole-expirydate">Pole <code>expiryDate</code></h3>
 <p>Pole <code>expiryDate</code> jest używane do określenia daty ważności strony, po której strona nie będzie renderowana, chyba że flaga <code>--buildExpired</code> zostanie przekazana do polecenia <code>hugo</code>.</p>
-<h4 id="szczegóły-6">Szczegóły</h4>
 <ul>
 <li>
 <p><strong>Definicja</strong>: <code>expiryDate</code> reprezentuje datę, po której strona przestaje być ważna lub aktualna. Gdy data ważności <code>expiryDate</code> zostanie przekroczona, strona nie będzie uwzględniana w standardowym procesie generowania stron przez Hugo, chyba że użyjesz flagi <code>--buildExpired</code>.</p>
@@ -344,7 +338,6 @@ Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, a
 </ul>
 <h3 id="pole-headless">Pole <code>headless</code></h3>
 <p>Pole <code>headless</code> odnosi się do paczek (bundli) liściowych (leaf bundles). Jeśli jest ustawione na <code>true</code>, opcje renderowania i listy są ustawione na nigdy, tworząc paczkę bez głównej strony.</p>
-<h4 id="szczegóły-7">Szczegóły</h4>
 <ul>
 <li>
 <p><strong>Definicja</strong>: <code>headless</code> jest typem boolean, który ma zastosowanie do paczek liściowych. Gdy jest ustawione na <code>true</code>, powoduje to, że opcje renderowania i listowania dla paczki są wyłączone. Oznacza to, że paczka zawiera zasoby strony, ale nie ma pojedynczej głównej strony, którą Hugo normalnie by generowało.</p>
@@ -364,7 +357,6 @@ Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, a
 </ul>
 <h3 id="pole-iscjklanguage">Pole <code>isCJKLanguage</code></h3>
 <p>Pole <code>isCJKLanguage</code> służy do określenia, czy język zawartości należy do rodziny CJK (chiński, japoński, koreański). Ustawienie tego pola na <code>true</code> wpływa na sposób obliczania liczby słów oraz może mieć wpływ na wartości zwracane przez metody takie jak <code>WordCount</code>, <code>FuzzyWordCount</code>, <code>ReadingTime</code>, oraz <code>Summary</code> na obiekcie <code>Page</code>.</p>
-<h4 id="szczegóły-8">Szczegóły</h4>
 <ul>
 <li>
 <p><strong>Definicja</strong>: <code>isCJKLanguage</code> jest typem boolean, który jest używany do oznaczenia języków z rodziny CJK, które mają inne reguły podziału słów i znaków niż języki alfabetyczne. Hugo dostosowuje sposób obliczania takich wartości jak liczba słów i czas czytania w zależności od ustawienia tego pola.</p>
@@ -376,15 +368,201 @@ Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, a
 <p><strong>Zastosowanie</strong>: Ustawienie <code>isCJKLanguage</code> jest istotne dla precyzyjnego obliczania statystyk dotyczących tekstu w językach CJK, takich jak liczba słów, czas czytania, czy krótkie podsumowania. Umożliwia to dokładne dostosowanie wyświetlanych informacji w interfejsie użytkownika.</p>
 </li>
 </ul>
+<h3 id="pole-keywords">Pole <code>keywords</code></h3>
+<p>Pole <code>keywords</code> jest używane do określenia słów kluczowych, które są zazwyczaj wykorzystywane jako meta tagi HTML lub do klasyfikacji treści.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>keywords</code> jest tablicą stringów, która zawiera słowa kluczowe lub frazy, które najlepiej opisują zawartość strony. Te słowa kluczowe mogą być używane do optymalizacji wyszukiwania (SEO) oraz jako etykiety do klasyfikacji treści.</p>
+</li>
+<li>
+<p><strong>Format</strong>: <code>keywords</code> jest tablicą stringów, gdzie każdy element reprezentuje pojedyncze słowo kluczowe. Przykładem może być: <code>keywords: [&quot;Hugo&quot;, &quot;static site generator&quot;, &quot;web development&quot;]</code>.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>keywords</code> jest przydatne dla identyfikacji i indeksowania strony przez wyszukiwarki internetowe. Słowa kluczowe pomagają również użytkownikom szybko zrozumieć tematykę i zawartość strony.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartości zawarte w polu <code>keywords</code> mogą być odczytywane i wykorzystywane za pomocą metody <code>Keywords</code> na obiekcie <code>Page</code>. Jest to przydatne do dynamicznego renderowania meta tagów HTML lub do kategoryzacji treści.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Jeśli tworzysz stronę o programowaniu w języku Go, możesz użyć <code>keywords: [&quot;Go programming&quot;, &quot;Golang&quot;, &quot;web development&quot;, &quot;static site generator&quot;]</code>, aby pomóc wyszukiwarkom internetowym w zrozumieniu, o czym jest Twoja strona.</p>
+</li>
+</ul>
+<h3 id="pole-lastmod">Pole <code>lastmod</code></h3>
+<p>Pole <code>lastmod</code> określa datę ostatniej modyfikacji strony. Jest to użyteczne dla śledzenia zmian w treści i aktualizacji stron internetowych.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>lastmod</code> jest typem string, który reprezentuje datę i czas ostatniej modyfikacji strony. Format daty może być różny w zależności od używanego formatu serializacji (JSON, TOML, YAML), ale zazwyczaj jest to <code>YYYY-MM-DD</code> lub <code>YYYY-MM-DDTHH:MM:SSZ</code>.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>lastmod</code> jest ważne dla optymalizacji wyszukiwania (SEO) oraz dla informowania użytkowników o aktualności zawartości. Wyszukiwarki internetowe mogą użyć tej informacji do określenia, które strony wymagają ponownego zindeksowania.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>lastmod</code> może być odczytywana i wykorzystywana za pomocą metody <code>Lastmod</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne renderowanie informacji o ostatniej modyfikacji na stronie.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Jeśli edytujesz stronę regularnie, ustawienie <code>lastmod</code> na aktualną datę i godzinę pomoże wskazać wyszukiwarkom, że zawartość strony została zaktualizowana. Przykładem może być <code>lastmod: &quot;2024-06-19T15:30:00Z&quot;</code>.</p>
+</li>
+<li>
+<p><strong>Uwaga</strong>: Używanie <code>lastmod</code> jest zalecane, aby zapewnić dokładne informacje o aktualności strony. Wpływa to na SEO i może zwiększyć wiarygodność treści w oczach użytkowników.</p>
+</li>
+</ul>
+<h3 id="pole-layout">Pole <code>layout</code></h3>
+<p>Pole <code>layout</code> pozwala określić nazwę szablonu, który ma zostać użyty do renderowania danej strony. Jest to przydatne do specyfikowania niestandardowych szablonów dla określonych stron w projekcie.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>layout</code> jest stringiem, który reprezentuje nazwę szablonu do użycia dla danej strony. Nazwa ta odpowiada nazwie pliku szablonu bez rozszerzenia pliku. Na przykład, <code>layout: &quot;post&quot;</code> odnosi się do pliku <code>layouts/post.html</code> lub <code>layouts/post.&lt;format&gt;</code>.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>layout</code> pozwala na wybór konkretnego szablonu do renderowania strony, pomimo domyślnego porządku wyszukiwania szablonów w Hugo. Jest przydatne, gdy potrzebujesz niestandardowego układu lub stylu dla określonych rodzajów treści.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>layout</code> może być odczytywana i wykorzystywana za pomocą metody <code>Layout</code> na obiekcie <code>Page</code>. Pozwala to na dynamiczne dostosowanie renderowania strony w zależności od określonego szablonu.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Jeśli chcesz użyć niestandardowego szablonu dla wpisów na blogu, możesz ustawić <code>layout: &quot;post&quot;</code> w front matter danego wpisu. Wtedy Hugo będzie renderować ten wpis używając szablonu <code>layouts/post.html</code>.</p>
+</li>
+<li>
+<p><strong>Uwaga</strong>: Używanie <code>layout</code> jest przydatne w przypadku projektów wymagających różnych układów dla różnych rodzajów treści. Umożliwia to elastyczność i personalizację wyglądu strony na poziomie indywidualnych wpisów lub stron.</p>
+</li>
+</ul>
+<h3 id="pole-linktitle">Pole <code>linkTitle</code></h3>
+<p>Pole <code>linkTitle</code> jest używane do określenia krótszej wersji tytułu strony lub wpisu, która jest zazwyczaj wykorzystywana jako tekst linku.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>linkTitle</code> jest stringiem, który reprezentuje krótszą wersję tytułu strony lub wpisu. Jest to użyteczne, gdy pełny tytuł jest zbyt długi lub gdy potrzebny jest bardziej zwięzły opis w kontekście linków lub nawigacji.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>linkTitle</code> pozwala na użycie bardziej kompaktowej formy tytułu jako tekstu linku w nawigacji lub listach treści. Jest to szczególnie użyteczne w projektach, gdzie istnieje potrzeba zarządzania długimi tytułami w sposób bardziej efektywny.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>linkTitle</code> może być odczytywana i wykorzystywana za pomocą metody <code>LinkTitle</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne renderowanie tekstów linków w zależności od ustawionego <code>linkTitle</code>.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Jeśli tytuł strony lub wpisu jest długi, na przykład <code>Long Title of the Blog Post</code>, możesz ustawić <code>linkTitle: &quot;Short Title&quot;</code>, co umożliwi korzystanie z krótszej wersji tytułu jako tekstu linku.</p>
+</li>
+</ul>
+<h3 id="pole-markup">Pole <code>markup</code></h3>
+<p>Pole <code>markup</code> służy do określenia formatu zawartości, który jest renderowany przez Hugo.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>markup</code> jest stringiem, który identyfikuje format zawartości, takiego jak Markdown, HTML, czy AsciiDoc. Określenie <code>markup</code> pozwala Hugo na dokładne ustalenie, jakiego renderera użyć do przetwarzania treści zawartej w pliku.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>markup</code> jest przydatne, gdy nazwa pliku nie jednoznacznie określa format zawartości, albo gdy potrzebny jest niestandardowy render dla określonej treści. Na przykład, jeśli plik ma rozszerzenie <code>.md</code>, ale zawiera treść w formacie AsciiDoc, możesz użyć <code>markup: &quot;asciidoc&quot;</code>, aby wyraźnie wskazać Hugo, jak renderować tę zawartość.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>markup</code> może być odczytywana i wykorzystywana za pomocą metody <code>Markup</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne dostosowanie renderowania zawartości w zależności od ustawionego formatu <code>markup</code>.</p>
+</li>
+</ul>
+<h3 id="pole-menus">Pole <code>menus</code></h3>
+<p>Pole <code>menus</code> pozwala na dodanie strony do określonych menu.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>menus</code> może przyjmować różne formy danych:</p>
+<ul>
+<li>String: Nazwa jednego menu, do którego ma zostać dodana strona.</li>
+<li>String array: Tablica nazw menu, do których ma zostać dodana strona.</li>
+<li>Map: Mapa, gdzie kluczami są nazwy menu, a wartościami są opcje specyficzne dla menu.</li>
+</ul>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>menus</code> jest przydatne, gdy chcesz zintegrować stronę z nawigacją lub menu na stronie internetowej. Pozwala to na łatwe zarządzanie tym, gdzie i jak strona będzie widoczna w interfejsie użytkownika.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>menus</code> może być odczytywana i wykorzystywana za pomocą metody <code>Menus</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne dodawanie stron do różnych menu w zależności od potrzeb projektowych.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Jeśli masz menu główne oraz menu nawigacyjne w stopce strony, możesz ustawić <code>menus: [&quot;main&quot;, &quot;footer&quot;]</code> w front matter danej strony, aby dodać tę stronę zarówno do menu głównego, jak i do menu w stopce.</p>
+</li>
+</ul>
+<h3 id="pole-outputs">Pole <code>outputs</code></h3>
+<p>Pole <code>outputs</code> pozwala na określenie formatów wyjściowych, które mają zostać wygenerowane dla danej strony.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>outputs</code> jest tablicą stringów, gdzie każdy element reprezentuje format wyjściowy, który ma być wygenerowany dla strony. Formaty te mogą obejmować HTML, JSON, XML i inne formaty wspierane przez Hugo.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>outputs</code> jest przydatne, gdy chcesz, aby Hugo wygenerował różne wersje danej strony w różnych formatach. Na przykład, jeśli tworzysz stronę, która ma być dostępna jako HTML dla przeglądarki internetowej i jako JSON do pobrania danych przez API, możesz ustawić <code>outputs: [&quot;html&quot;, &quot;json&quot;]</code>.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>outputs</code> może być odczytywana i wykorzystywana za pomocą metody <code>Outputs</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne dostosowanie generowania różnych formatów wyjściowych w zależności od potrzeb.</p>
+</li>
+</ul>
+<h3 id="pole-params">Pole <code>params</code></h3>
+<p>Pole <code>params</code> pozwala na definiowanie niestandardowych parametrów strony za pomocą mapy.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>params</code> jest mapą, która zawiera niestandardowe parametry strony, które można dostosować i używać w szablonach Hugo. Parametry te są specyficzne dla danej strony i mogą zawierać różne informacje lub ustawienia potrzebne do renderowania lub funkcjonowania strony.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>params</code> jest przydatne, gdy potrzebujesz przechowywać i używać niestandardowych danych lub ustawień dla danej strony. Może to obejmować konfiguracje specyficzne dla funkcjonalności strony, takie jak klucze API, ustawienia wyświetlania, czy niestandardowe dane potrzebne do renderowania treści.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartości przechowywane w <code>params</code> mogą być odczytywane i wykorzystywane za pomocą metody <code>Param</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne dostosowanie działania szablonów w zależności od ustawionych parametrów.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Jeśli tworzysz stronę, która integruje się z zewnętrznym API i wymaga ustawienia klucza dostępowego, możesz dodać <code>params</code> w front matter tej strony, aby przechowywać klucz API i użyć go w szablonach do komunikacji z API.</p>
+</li>
+</ul>
+<h3 id="pole-publishdate">Pole <code>publishDate</code></h3>
+<p>Pole <code>publishDate</code> określa datę publikacji strony. Przed tą datą strona nie będzie renderowana, chyba że użyjesz flagi <code>--buildFuture</code> w poleceniu Hugo.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>publishDate</code> jest stringiem reprezentującym datę publikacji strony. Jest to przydatne pole, które pozwala na planowanie publikacji treści w Hugo. Strona nie zostanie wygenerowana do pliku wyjściowego przed datą ustawioną w <code>publishDate</code>, chyba że zastosowano flagę <code>--buildFuture</code>.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>publishDate</code> jest szczególnie użyteczne, gdy chcesz kontrolować moment publikacji treści na stronie internetowej. Możesz planować wydanie nowych artykułów, aktualizacji lub kampanii marketingowych, które mają być widoczne dla użytkowników w określonym czasie.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>publishDate</code> może być odczytywana i wykorzystywana za pomocą metody <code>PublishDate</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne dostosowanie prezentacji strony w zależności od ustawionej daty publikacji.</p>
+</li>
+</ul>
+<h3 id="pole-resources">Pole <code>resources</code></h3>
+<p>Pole <code>resources</code> umożliwia dostarczenie metadanych dla zasobów strony za pomocą tablicy map.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>resources</code> jest tablicą map, gdzie każdy element mapy zawiera metadane dla konkretnego zasobu strony. Zasoby te mogą obejmować obrazy, pliki audio, video, czy inne pliki, które są powiązane z treścią strony i wymagają dodatkowych informacji lub ustawień.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>resources</code> jest przydatne, gdy potrzebujesz zarządzać dodatkowymi danymi lub ustawieniami dla różnych zasobów na stronie. Może to obejmować metadane techniczne, takie jak wymiary obrazu, format pliku, czy inne szczegóły używane do renderowania i prezentacji zasobów.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, metadane zawarte w <code>resources</code> mogą być odczytywane i wykorzystywane za pomocą odpowiednich metod dostępu do zasobów na obiekcie <code>Page</code>. Umożliwia to dynamiczne renderowanie zasobów w zależności od ustawionych metadanych.</p>
+</li>
+<li>
+<p><strong>Format</strong>: <code>resources</code> jest tablicą map, gdzie każda mapa może zawierać różne pola metadanych, zależnie od potrzeb projektowych. Przykładowe pola mogą obejmować <code>title</code>, <code>description</code>, <code>type</code> (typ zasobu), <code>params</code> (niestandardowe parametry) i inne.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Jeśli masz stronę zawierającą galerię zdjęć, możesz użyć <code>resources</code> w front matter każdego zdjęcia, aby określić tytuł, opis oraz inne szczegóły techniczne takie jak rozmiar i format pliku.</p>
+</li>
+</ul>
+<h3 id="pole-sitemap">Pole <code>sitemap</code></h3>
+<p>Pole <code>sitemap</code> umożliwia konfigurację opcji mapy witryny (sitemap) dla danej strony.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>sitemap</code> jest mapą, która zawiera opcje konfiguracyjne dotyczące mapy witryny (sitemap) dla strony. Sitemap jest strukturą XML, która zawiera informacje o strukturze i hierarchii stron na stronie internetowej, co pomaga wyszukiwarkom internetowym w ich indeksowaniu.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>sitemap</code> pozwala na kontrolę, czy i jak strona ma być uwzględniana w mapie witryny generowanej przez Hugo. Możesz określić różne opcje, takie jak <code>changefreq</code> (częstotliwość zmian), <code>priority</code> (priorytet) i inne parametry pomocne w optymalizacji SEO.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, opcje zawarte w <code>sitemap</code> mogą być odczytywane i wykorzystywane za pomocą metody <code>Sitemap</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne dostosowanie zawartości mapy witryny w zależności od ustawionych opcji.</p>
+</li>
+<li>
+<p><strong>Format</strong>: <code>sitemap</code> jest mapą, gdzie każdy klucz reprezentuje nazwę opcji mapy witryny, a wartość jest odpowiednią wartością tej opcji, na przykład <code>changefreq: &quot;weekly&quot;</code>.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Jeśli chcesz, aby dana strona była indeksowana częściej przez wyszukiwarki internetowe, możesz ustawić <code>sitemap: { changefreq: &quot;daily&quot;, priority: 0.8 }</code> w jej front matter. Hugo wykorzysta te informacje do generowania odpowiednich wpisów w mapie witryny.</p>
+</li>
+</ul>
 <h3 id="pole-slug">Pole <code>slug</code></h3>
 <p>Pole <code>slug</code> w front matter jest używane do nadpisywania ostatniego segmentu ścieżki URL generowanej dla danej strony. Jest to przydatne, gdy chcesz mieć kontrolę nad tym, jak konkretna strona jest adresowana w przeglądarce.</p>
-<h4 id="szczegóły-9">Szczegóły</h4>
 <ul>
 <li>
 <p><strong>Definicja</strong>: <code>slug</code> jest ciągiem znaków (stringiem), który zastępuje ostatni segment w ścieżce URL strony. Domyślnie Hugo tworzy ścieżkę URL na podstawie tytułu lub nazwy pliku, ale możesz użyć <code>slug</code>, aby to nadpisać.</p>
 </li>
 <li>
-<p><strong>Zastosowanie</strong>: Ustawiając <code>slug</code>, możesz zmienić lub uproszczyć adres URL strony, co jest przydatne zwłaszcza w przypadku stron z długimi tytułami lub gdy chcesz bardziej kontrolować strukturę URL.</p>
+<p><strong>Zastosowanie</strong>: Ustawiając <code>slug</code>, możesz zmienić lub uprościć adres URL strony, co jest przydatne zwłaszcza w przypadku stron z długimi tytułami lub gdy chcesz bardziej kontrolować strukturę URL.</p>
 </li>
 <li>
 <p><strong>Przykład</strong>: Jeśli masz stronę z tytułem &ldquo;Mój pierwszy wpis na blogu&rdquo;, to domyślnie Hugo może utworzyć URL typu <code>/posts/moj-pierwszy-wpis-na-blogu/</code>. Możesz jednak ustawić <code>slug</code> na <code>&quot;moj-pierwszy-wpis&quot;</code>, aby uzyskać bardziej krótki URL, np. <code>/posts/moj-pierwszy-wpis/</code>.</p>
@@ -397,6 +575,108 @@ Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, a
 </li>
 </ul>
 <p>Pole <code>slug</code> daje użytkownikowi kontrolę nad strukturą URL danej strony, co pozwala na bardziej czytelną i optymalizowaną dla SEO adresację stron w Twoim projekcie Hugo.</p>
+<h3 id="pole-summary">Pole <code>summary</code></h3>
+<p>Pole <code>summary</code> służy do dostarczenia krótkiego opisu lub podsumowania zawartości strony. Jest to odrębne koncepcyjnie niż opis strony, ponieważ <code>summary</code> ma na celu streszczenie treści lub pełnić rolę teaseru, zachęcając czytelników do odwiedzenia strony.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>summary</code> jest stringiem, który zawiera krótki opis lub streszczenie treści strony. Jest to użyteczne pole, które pomaga w szybkim zrozumieniu tematu strony bez konieczności czytania całej treści.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>summary</code> jest szczególnie przydatne w przypadku list stron, stron głównych, archiwów czy innych miejsc, gdzie istotne jest dostarczenie kompaktowego podsumowania treści. Może ono być również używane jako teaser w różnych kontekstach, takich jak listy wyników wyszukiwania, podgląd postów na blogu, czy w podsumowaniach na stronie głównej.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>summary</code> może być odczytywana i wykorzystywana za pomocą metody <code>Summary</code> na obiekcie <code>Page</code>. Pozwala to na dynamiczne wyświetlanie streszczeń w zależności od ustawionych wartości <code>summary</code> w front matter strony.</p>
+</li>
+</ul>
+<h3 id="pole-title">Pole <code>title</code></h3>
+<p>Pole <code>title</code> w front matter Hugo zawiera tytuł strony.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>title</code> jest stringiem reprezentującym tytuł strony. Jest to kluczowe pole, które określa, jak strona będzie się nazywać w interfejsie użytkownika i w wynikach wyszukiwania.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>title</code> jest niezbędne do określenia nazwy strony. Jest ono używane w różnych kontekstach, takich jak tytuły stron internetowych, nagłówki artykułów, tytuły wpisów na blogu itp. <code>title</code> powinno klarownie przedstawiać treść strony i być zwięzłe, ale jednocześnie przyciągające uwagę czytelnika.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>title</code> jest dostępna za pomocą metody <code>Title</code> na obiekcie <code>Page</code>. Pozwala to na dynamiczne wyświetlanie tytułów stron na podstawie ustawionych wartości <code>title</code> w front matter.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Dla strony zawierającej artykuł o najnowszych technologiach, przykładowy <code>title</code> mógłby wyglądać tak: <code>title: &quot;Najnowsze trendy technologiczne roku 2024&quot;</code>. Taki tytuł jasno określa temat artykułu i przyciąga uwagę czytelników.</p>
+</li>
+<li>
+<p><strong>Uwaga</strong>: Ustawienie odpowiedniego <code>title</code> jest kluczowe dla SEO (optymalizacji dla wyszukiwarek internetowych), ponieważ tytuł strony jest jednym z czynników branych pod uwagę przez wyszukiwarki przy indeksowaniu i wyświetlaniu wyników wyszukiwania.</p>
+</li>
+</ul>
+<h3 id="pole-translationkey">Pole <code>translationKey</code></h3>
+<p>Pole <code>translationKey</code> jest arbitralną wartością używaną do powiązania dwóch lub więcej tłumaczeń tej samej strony.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>translationKey</code> jest stringiem, który służy do identyfikacji powiązanych tłumaczeń tej samej strony. Jest szczególnie użyteczne, gdy tłumaczenia stron nie mają wspólnego ścieżki URL.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>translationKey</code> pozwala na powiązanie różnych wersji językowych tej samej strony, które mogą znajdować się w różnych katalogach lub nie dzielić wspólnej struktury URL. Jest to przydatne w wielojęzycznych witrynach internetowych, gdzie każda strona może mieć swój unikalny URL w zależności od języka.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>translationKey</code> jest dostępna za pomocą metody <code>TranslationKey</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne odwoływanie się do powiązanych tłumaczeń strony i dostosowanie wyświetlania zawartości w zależności od wybranego języka.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Dla strony o nazwie &ldquo;about&rdquo; mającej tłumaczenia w języku angielskim i niemieckim, możesz ustawić <code>translationKey</code> jako identyfikator, na przykład <code>translationKey: &quot;about-page&quot;</code>. Oba tłumaczenia strony będą się odwoływać do tego samego klucza, mimo że ich struktura URL może się różnić.</p>
+</li>
+</ul>
+<h3 id="pole-type">Pole <code>type</code></h3>
+<p>Pole <code>type</code> służy do określenia typu zawartości strony, nadpisując wartość domyślną pochodzącą z sekcji na najwyższym poziomie, w której strona się znajduje.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>type</code> jest stringiem, który określa specyficzny typ zawartości strony. Jest używany do klasyfikacji i identyfikacji różnych typów zawartości na stronie internetowej.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>type</code> pozwala na precyzyjne określenie charakteru strony, niezależnie od tego, w jakiej sekcji strona się znajduje. Na przykład, może to być <code>post</code> dla wpisu na blogu, <code>product</code> dla strony produktu, <code>event</code> dla strony wydarzenia itp.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>type</code> jest dostępna za pomocą metody <code>Type</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne przypisanie specyficznego szablonu lub stylizacji w zależności od typu zawartości strony.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Dla strony zawierającej opis wydarzenia, możesz ustawić <code>type</code> jako <code>event</code>, na przykład <code>type: &quot;event&quot;</code>. Taka klasyfikacja pozwala na specyficzne przypisanie szablonu wyświetlania dla stron tego typu.</p>
+</li>
+</ul>
+<h3 id="pole-url">Pole <code>url</code></h3>
+<p>Pole <code>url</code> umożliwia nadpisanie całej ścieżki URL strony.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>url</code> jest stringiem, który pozwala określić niestandardową ścieżkę URL dla danej strony. Nadpisuje domyślną ścieżkę URL, która byłaby generowana na podstawie hierarchii sekcji i nazwy pliku.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>url</code> jest przydatne, gdy chcesz kontrolować dokładną strukturę URL danej strony. Może być stosowane zarówno do standardowych stron, jak i stron sekcji.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>url</code> może być odczytywana za pomocą metody <code>URL</code> na obiekcie <code>Page</code>. Umożliwia to dynamiczne generowanie linków i odwołań do stron, uwzględniając niestandardowe ścieżki URL zdefiniowane w front matter.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Jeśli masz stronę o nazwie <code>about.md</code> i chcesz, aby jej URL był <code>/company/about-us/</code>, możesz ustawić <code>url: &quot;/company/about-us/&quot;</code> w jej front matter.</p>
+</li>
+<li>
+<p><strong>Uwaga</strong>: Ustawienie <code>url</code> jest opcjonalne. Domyślnie Hugo generuje ścieżki URL na podstawie struktury plików i sekcji. <code>url</code> pozwala na niestandardowe definiowanie adresów URL, co jest szczególnie użyteczne w przypadku tworzenia przyjaznych dla użytkownika adresów URL.</p>
+</li>
+</ul>
+<h3 id="pole-weight">Pole <code>weight</code></h3>
+<p>Pole <code>weight</code> służy do określenia wagi strony, która jest używana do kolejności stron w ramach kolekcji stron.</p>
+<ul>
+<li>
+<p><strong>Definicja</strong>: <code>weight</code> jest liczbą całkowitą (int), która określa priorytet lub kolejność strony w ramach zbioru stron, takiego jak strony sekcji lub listy stron.</p>
+</li>
+<li>
+<p><strong>Zastosowanie</strong>: Ustawienie <code>weight</code> pozwala na manualne określenie, jak strona powinna być ułożona w porównaniu do innych stron w tej samej kolekcji. Niższa wartość <code>weight</code> oznacza wyższy priorytet i umieszczenie strony wcześniej w kolekcji.</p>
+</li>
+<li>
+<p><strong>Dostęp z poziomu szablonów</strong>: W szablonach Hugo, wartość <code>weight</code> jest dostępna za pomocą metody <code>Weight</code> na obiekcie <code>Page</code>. Umożliwia to sortowanie i prezentację stron zgodnie z ich określoną wagą.</p>
+</li>
+<li>
+<p><strong>Przykład</strong>: Dla sekcji bloga, gdzie strony są sortowane według daty lub innych kryteriów, możesz ustawić <code>weight</code>, aby ręcznie kontrolować kolejność wyświetlania niezależnie od innych kryteriów sortowania.</p>
+</li>
+<li>
+<p><strong>Uwaga</strong>: Ustawienie <code>weight</code> jest opcjonalne. Domyślnie strony są zwykle sortowane według daty lub alfabetycznie. Użycie <code>weight</code> jest przydatne, gdy potrzebujesz specyficznej kontroli nad kolejnością wyświetlania stron w ramach kolekcji.</p>
+</li>
+</ul>
 <ul class="pa0">
   
 </ul>

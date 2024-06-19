@@ -16,7 +16,7 @@
       <description>Front matter Użyj front matter, aby dodać metadane do swojej treści.&#xA;Przegląd Front matter znajdujący się na początku każdego pliku z treścią to metadane, które:&#xA;Opisują zawartość: Zawierają informacje takie jak tytuł, data publikacji, autor itp. Uzupełniają zawartość: Mogą zawierać dodatkowe informacje, takie jak kategorie, tagi, streszczenia. Ustalają relacje z innymi treściami: Pozwalają na powiązanie z innymi wpisami, tworzenie hierarchii stron itp. Kontrolują strukturę publikacji twojej strony: Mogą wpływać na to, czy treść jest szkicem, kiedy ma zostać opublikowana, czy jest ukryta.</description>
     </item>
     <item>
-      <title>Podstawy Skladni Markdown</title>
+      <title>Podstawy Składni Markdown</title>
       <link>http://localhost:1313/posts/podstawy-skladni-markdown/</link>
       <pubDate>Wed, 19 Jun 2024 12:58:55 +0200</pubDate>
       <guid>http://localhost:1313/posts/podstawy-skladni-markdown/</guid>

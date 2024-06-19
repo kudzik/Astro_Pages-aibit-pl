@@ -77,4 +77,3 @@ hugo version
 ```
 
 To polecenie wyświetli aktualną wersję Hugo, która jest zainstalowana na twoim komputerze.
-
