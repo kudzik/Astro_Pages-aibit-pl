@@ -4,6 +4,16 @@
   <url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-06-19T18:43:38+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl-pl"
+                href="http://localhost:1313/"
+                />
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-06-19T18:43:38+02:00</lastmod>
@@ -30,7 +40,27 @@
     <lastmod>2024-06-19T12:17:47+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl-pl"
+                href="http://localhost:1313/categories/"
+                />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://localhost:1313/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl-pl"
+                href="http://localhost:1313/tags/"
+                />
   </url>
 </urlset>

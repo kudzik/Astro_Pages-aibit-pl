@@ -2,32 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on AI Bit</title>
-    <link>https://aibit.pl/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on AI Bit</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Wed, 19 Jun 2024 13:38:45 +0200</lastBuildDate>
-    <atom:link href="https://aibit.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jun 2024 18:43:38 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Struktura Katalogow</title>
+      <link>http://localhost:1313/posts/struktura-katalogow/</link>
+      <pubDate>Wed, 19 Jun 2024 18:43:38 +0200</pubDate>
+      <guid>http://localhost:1313/posts/struktura-katalogow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cascade</title>
+      <link>http://localhost:1313/posts/cascade/</link>
+      <pubDate>Wed, 19 Jun 2024 18:02:57 +0200</pubDate>
+      <guid>http://localhost:1313/posts/cascade/</guid>
+      <description>Cascade W Hugo, każdy węzeł może przekazywać swoim potomkom zestaw wartości front matter.&#xA;Docelowe konkretne strony Blok cascade może być tablicą z opcjonalnym słowem kluczowym _target, pozwalającym na celowanie w różne zbiory stron podczas przekazywania wartości.&#xA;Cascade w Hugo pozwala na dziedziczenie wartości front matter pomiędzy stronami w strukturze projektu. Jest to szczególnie przydatne do ustawiania globalnych parametrów lub wartości dla grupy stron lub sekcji, które mają wspólne cechy.&#xA;Przykład użycia cascade # content/_index.</description>
+    </item>
+    <item>
+      <title>Taksonomie</title>
+      <link>http://localhost:1313/posts/taksonomie/</link>
+      <pubDate>Wed, 19 Jun 2024 18:01:56 +0200</pubDate>
+      <guid>http://localhost:1313/posts/taksonomie/</guid>
+      <description>Taxonomie Taxonomies w Hugo pozwalają na klasyfikację treści poprzez dodawanie terminów taksonomicznych do front matter. Na przykład w konfiguracji strony:&#xA;Konfiguracja Taxonomies # hugo. taxonomies: genre: genres tag: tags Możesz dodać terminy taksonomiczne jak pokazano poniżej:&#xA;Przykład dodania terminów taksonomicznych # content/example.md --- date: 2024-02-02T04:14:54-08:00 draft: false genres: - mystery - romance params: author: John Smith tags: - red - blue title: Example weight: 10 --- Rodzaje stron, do których można dodać terminy taksonomiczne Możesz dodawać terminy taksonomiczne do różnych rodzajów stron:</description>
+    </item>
     <item>
       <title>Front Matter</title>
-      <link>https://aibit.pl/posts/front-matter/</link>
+      <link>http://localhost:1313/posts/front-matter/</link>
       <pubDate>Wed, 19 Jun 2024 13:38:45 +0200</pubDate>
-      <guid>https://aibit.pl/posts/front-matter/</guid>
+      <guid>http://localhost:1313/posts/front-matter/</guid>
       <description>Ukryta Moc Metadanych Czy zastanawiałeś się kiedyś, jak twórcy stron internetowych i blogów organizują swoje treści, kontrolują ich wygląd i ułatwiają nawigację? Odpowiedzią jest Front Matter niepozorny, ale potężny element, który kryje się na początku każdego pliku.</description>
     </item>
     <item>
       <title>Podstawy Składni Markdown</title>
-      <link>https://aibit.pl/posts/podstawy-skladni-markdown/</link>
+      <link>http://localhost:1313/posts/podstawy-skladni-markdown/</link>
       <pubDate>Wed, 19 Jun 2024 12:58:55 +0200</pubDate>
-      <guid>https://aibit.pl/posts/podstawy-skladni-markdown/</guid>
+      <guid>http://localhost:1313/posts/podstawy-skladni-markdown/</guid>
       <description>Podstawy składni Markdown This is **bold** text, and this is *emphasized* text. This is bold text, and this is emphasized text.&#xA;Visit the [Hugo](https://gohugo.io) website! Visit the Hugo website!</description>
     </item>
     <item>
       <title>Podstawowe polecenia CLI</title>
-      <link>https://aibit.pl/posts/podstawowe-polecenia-cli/</link>
+      <link>http://localhost:1313/posts/podstawowe-polecenia-cli/</link>
       <pubDate>Wed, 19 Jun 2024 12:54:25 +0200</pubDate>
-      <guid>https://aibit.pl/posts/podstawowe-polecenia-cli/</guid>
+      <guid>http://localhost:1313/posts/podstawowe-polecenia-cli/</guid>
       <description>Linia poleceń W tej części omówimy najczęściej używane polecenia w Hugo. Są one kluczowe do efektywnej pracy z tym frameworkiem.&#xA;Sprawdzenie pomocy i dostępnych poleceń Jeśli potrzebujesz więcej informacji na temat dostępnych poleceń, użyj:&#xA;hugo help hugo server --help To polecenie wyświetli listę wszystkich dostępnych poleceń oraz krótki opis każdego z nich.&#xA;Tworzenie nowego projektu hugo new site nazwa-projektu To polecenie stworzy nowy katalog z podstawową strukturą plików Hugo.&#xA;Uruchamianie serwera deweloperskiego Podczas tworzenia treści możesz chcieć na bieżąco podglądać, jak wygląda twoja strona.</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 19 Jun 2024 12:17:47 +0200</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
