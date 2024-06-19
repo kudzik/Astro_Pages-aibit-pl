@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>Podstawowe polecenia CLI</title>
-      <link>http://localhost:1313/posts/my-draft/</link>
+      <link>http://localhost:1313/posts/podstawowe-polecenia-cli/</link>
       <pubDate>Wed, 19 Jun 2024 12:54:25 +0200</pubDate>
-      <guid>http://localhost:1313/posts/my-draft/</guid>
+      <guid>http://localhost:1313/posts/podstawowe-polecenia-cli/</guid>
       <description>Linia poleceń W tej części omówimy najczęściej używane polecenia w Hugo. Są one kluczowe do efektywnej pracy z tym frameworkiem.&#xA;Sprawdzenie pomocy i dostępnych poleceń Jeśli potrzebujesz więcej informacji na temat dostępnych poleceń, użyj:&#xA;hugo help To polecenie wyświetli listę wszystkich dostępnych poleceń oraz krótki opis każdego z nich.&#xA;Tworzenie nowego projektu hugo new site nazwa-projektu To polecenie stworzy nowy katalog z podstawową strukturą plików Hugo.&#xA;Uruchamianie serwera deweloperskiego Podczas tworzenia treści możesz chcieć na bieżąco podglądać, jak wygląda twoja strona.</description>
     </item>
     <item>
