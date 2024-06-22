@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on AI Bit</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on AI Bit</description>
+    <title>Hugo on AI Bit</title>
+    <link>http://localhost:1313/categories/hugo/</link>
+    <description>Recent content in Hugo on AI Bit</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Sat, 22 Jun 2024 07:41:36 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Git Podstawy</title>
-      <link>http://localhost:1313/posts/git/git-podstawy/</link>
-      <pubDate>Sat, 22 Jun 2024 07:41:36 +0200</pubDate>
-      <guid>http://localhost:1313/posts/git/git-podstawy/</guid>
-      <description>Kompaktowa ściąga, która przeprowadzi Cię przez standardowy przepływ pracy w Git. Od inicjalizacji repozytorium, przez tworzenie gałęzi funkcyjnych, aż po mergowanie zmian.</description>
-    </item>
+    <lastBuildDate>Wed, 19 Jun 2024 18:43:38 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Struktura katalogów w Hugo</title>
       <link>http://localhost:1313/posts/hugo/struktura-katalogow/</link>

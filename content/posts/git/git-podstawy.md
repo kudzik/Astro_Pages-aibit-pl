@@ -1,7 +1,11 @@
 +++
 title = 'Git Podstawy'
 date = 2024-06-22T07:41:36+02:00
-draft = true
+draft = false
+categories = [
+   'git',
+]
+summary = 'Kompaktowa ściąga, która przeprowadzi Cię przez standardowy przepływ pracy w Git. Od inicjalizacji repozytorium, przez tworzenie gałęzi funkcyjnych, aż po mergowanie zmian.'
 +++
 
 

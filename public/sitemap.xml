@@ -3,33 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-19T18:43:38+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-06-19T18:43:38+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/struktura-katalogow/</loc>
-    <lastmod>2024-06-19T18:43:38+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/cascade/</loc>
-    <lastmod>2024-06-19T18:02:57+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/taksonomie/</loc>
-    <lastmod>2024-06-19T18:01:56+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/front-matter/</loc>
-    <lastmod>2024-06-19T13:38:45+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/podstawy-skladni-markdown/</loc>
-    <lastmod>2024-06-19T12:58:55+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/podstawowe-polecenia-cli/</loc>
-    <lastmod>2024-06-19T12:54:25+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2024-06-19T12:17:47+02:00</lastmod>
+    <lastmod>2024-06-22T07:41:36+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-06-22T07:41:36+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/git/</loc>
+    <lastmod>2024-06-22T07:41:36+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/git/git-podstawy/</loc>
+    <lastmod>2024-06-22T07:41:36+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-06-22T07:41:36+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/hugo/</loc>
+    <lastmod>2024-06-19T18:43:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hugo/struktura-katalogow/</loc>
+    <lastmod>2024-06-19T18:43:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hugo/cascade/</loc>
+    <lastmod>2024-06-19T18:02:57+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hugo/taksonomie/</loc>
+    <lastmod>2024-06-19T18:01:56+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hugo/front-matter/</loc>
+    <lastmod>2024-06-19T13:38:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hugo/podstawy-skladni-markdown/</loc>
+    <lastmod>2024-06-19T12:58:55+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hugo/podstawowe-polecenia-cli/</loc>
+    <lastmod>2024-06-19T12:54:25+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

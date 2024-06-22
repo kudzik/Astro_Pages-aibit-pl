@@ -2,6 +2,9 @@
 title = 'Taksonomie'
 date = 2024-06-19T18:01:56+02:00
 draft = true
+categories = [
+   'hugo',
+]
 +++
 
 

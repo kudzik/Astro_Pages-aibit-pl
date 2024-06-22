@@ -2,6 +2,9 @@
 title = 'Podstawowe polecenia CLI'
 date = 2024-06-19T12:54:25+02:00
 draft = false
+categories = [
+   'hugo',
+]
 +++
 
 ## Linia poleceń

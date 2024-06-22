@@ -1,7 +1,10 @@
 +++
 title = 'Cascade'
 date = 2024-06-19T18:02:57+02:00
-draft = true
+draft = false
+categories = [
+   'hugo',
+]
 +++
 
 

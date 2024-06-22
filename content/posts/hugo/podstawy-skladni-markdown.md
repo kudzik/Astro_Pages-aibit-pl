@@ -2,6 +2,9 @@
 title = 'Podstawy Składni Markdown'
 date = 2024-06-19T12:58:55+02:00
 draft = false
+categories = [
+   'hugo',
+]
 +++
 
 ## Podstawy składni Markdown

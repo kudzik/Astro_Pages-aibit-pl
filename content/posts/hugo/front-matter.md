@@ -2,6 +2,9 @@
 title = 'Front Matter'
 date = 2024-06-19T13:38:45+02:00
 draft = false
+categories = [
+   'hugo',
+]
 summary = "Ukryta Moc Metadanych Czy zastanawiałeś się kiedyś, jak twórcy stron internetowych i blogów organizują swoje treści, kontrolują ich wygląd i ułatwiają nawigację? Odpowiedzią jest Front Matter niepozorny, ale potężny element, który kryje się na początku każdego pliku."
 +++
 
