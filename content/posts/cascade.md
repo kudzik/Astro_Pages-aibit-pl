@@ -34,3 +34,4 @@ W powyższym przykładzie `cascade` jest zdefiniowane jako tablica z dwoma eleme
 - Drugi element `_target: "page"` ustawia wartość `draft: false` dla każdej pojedynczej strony.
 
 Dzięki `cascade` możesz precyzyjnie zarządzać dziedziczeniem wartości, co jest przydatne przy tworzeniu dużych stron internetowych z różnorodnymi sekcjami i rodzajami stron.
+
